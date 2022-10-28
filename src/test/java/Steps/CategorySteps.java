@@ -1,19 +1,17 @@
 package Steps;
 
 import Base.Browser;
-import io.cucumber.java.Before;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
+
 import pageObjectHP.CategoryPageObject;
 
 public class CategorySteps  {
 
-    private Browser Bro;
+    private final Browser Bro;
 
 
 
