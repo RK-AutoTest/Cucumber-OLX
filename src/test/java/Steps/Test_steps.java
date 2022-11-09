@@ -1,49 +1,52 @@
 package Steps;
 
-import Base.Browser;
-import io.cucumber.java.*;
+
+import WebDriverManager.WebDriverManagerSingleton;
+
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import pageObjectHP.CategoryPageObject;
+
+
+import org.openqa.selenium.support.PageFactory;
+
 import pageObjectHP.PageObjects;
 
-import java.time.Duration;
+
 
 public class Test_steps  {
-private Browser Bro;
-private PageObjects po;
+WebDriverManagerSingleton wm= WebDriverManagerSingleton.getInstance();
+WebDriver driver= wm.getDriver();
+private final PageObjects po= PageFactory.initElements(driver,PageObjects.class);
 
 
 
-    public Test_steps(Browser browser) {
-       Bro=browser;
+    @Given("I navigate to home page of OLX {string}.")
+
+    public void I_navigate_to_home_page_of_OLX(String url){
+
+        driver.get(url);
+
     }
 
-    // PageObjects po=new PageObjects(driver);
+
 // Scenario 1
-    @Given("^user on homepage$")
-    public void user_on_homepage(){
 
-        System.out.println("home");
-    }
 
     @When("^user clicks on drop down country list$")
     public void user_clicks_on_drop_down_country_list(){
-        try {PageObjects po=new PageObjects(Bro.getDriver());
+        try {
             po.clickondropdownoption();
         } catch (Exception e) {
-            System.out.println("error 1"+e);
+
         }
     }
     @Then("^user able to see and click on location options$")
     public void user_able_to_see_and_click_on_location_options(){
-        try {PageObjects po=new PageObjects(Bro.getDriver());
-            Bro.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-            po.selectdropdowoptioncountry();
+        try {
+            po.selectDropDownOptionCountry();
 
         } catch (Exception e) {
             System.out.println("error 2"+e);
@@ -53,11 +56,11 @@ private PageObjects po;
 
     // Scenario 2
 
-    @Given("user clicks on input field of search box {string}")
+    @When("user clicks on input field of search box {string}")
     public void user_clicks_on_input_field_of_search_box(String cars) {
         try {
-            PageObjects po=new PageObjects(Bro.getDriver());
-            po.sbox(cars);
+
+            po.setSearchBox(cars);
             System.out.println("scenario two");
         } catch (Exception e) {
             e.printStackTrace();
@@ -68,15 +71,12 @@ private PageObjects po;
 
     public void user_clicks_on_search_button() {
         try {
-            PageObjects po=new PageObjects(Bro.getDriver());
+
             System.out.println("scenario two submit");
-            po.sbutton();
+            po.setSearchButton();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-
-
 
 }

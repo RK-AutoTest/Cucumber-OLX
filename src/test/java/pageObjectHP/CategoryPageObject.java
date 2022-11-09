@@ -1,20 +1,20 @@
 package pageObjectHP;
 
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
-
+import org.testng.Assert;
 
 import java.time.Duration;
 
 public class CategoryPageObject {
     WebDriver driver;
-
     public CategoryPageObject(WebDriver d){
-        this.driver=d;
-        PageFactory.initElements(driver,this);
+        driver=d;
+
     }
     @FindBy(how=How.XPATH,using = "//span[contains(text(),'All Categories')]")
     WebElement categories;
@@ -24,33 +24,33 @@ public class CategoryPageObject {
           //  WebElement;
 
     public void verifyTitle() {
+     // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
        String title=driver.getTitle();
-       System.out.println("fetched title"+title);
+       System.out.println("fetched title "+title);
        String expected = "OLX - Free classifieds in India, Buy and Sell for free anywhere in India with OLX Online Classified Advertising";
-       if(title.equalsIgnoreCase(expected)){
-           System.out.println("Matched title");
-       }else System.out.println("not matched");
+       Assert.assertEquals(title,expected);
+        System.out.println("Title matched of Home Page");
     }
 
     public void clickCategories() {
 
         categories.click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        System.out.println(" clicked");
+        System.out.println("clicked");
     }
 
     public void clickDog() {
 
         dog.click();
-      //  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
     public void verifyDogPage(){
+
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         String dg=driver.getTitle();
         System.out.println("fetched title of dog page "+dg);
         String expected="Dogs for sale in India | OLX";
-        if (dg.equalsIgnoreCase(expected)){
-            System.out.println("Matched dog title");
-        }else System.out.println("not matched dog title");
+        Assert.assertEquals(dg,expected);
+        System.out.println("Title matched of Dog Page");
         }
 }

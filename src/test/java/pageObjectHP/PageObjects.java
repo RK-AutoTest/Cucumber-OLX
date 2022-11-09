@@ -1,10 +1,12 @@
 package pageObjectHP;
 
+import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
+
 
 import java.time.Duration;
 
@@ -12,7 +14,7 @@ public class PageObjects {
       WebDriver driver ;
     public PageObjects(WebDriver driver) {
         this.driver =driver;
-        PageFactory.initElements(driver, this);
+
 
     }
     @FindBy(how = How.XPATH, using ="//div[@data-aut-id='locationBox']//button[@role='button']")
@@ -23,8 +25,8 @@ public class PageObjects {
    WebElement searchbox;
     @FindBy(how = How.XPATH, using ="//div[@data-aut-id='btnSearch']")
     WebElement searchbutton;
-    @FindBy(how = How.XPATH, using ="")
-    WebElement websitelink;
+//    @FindBy(how = How.XPATH, using ="")
+//    WebElement websitelink;
 
     public void clickondropdownoption(){
 
@@ -34,7 +36,7 @@ public class PageObjects {
             e.printStackTrace();
         }
     }
-    public void selectdropdowoptioncountry(){
+    public void selectDropDownOptionCountry(){
         try {driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
             listoption.click();
         } catch (Exception e) {
@@ -42,7 +44,7 @@ public class PageObjects {
         }
     }
 
-    public void sbox(String txt){
+    public void setSearchBox(String txt){
         try {
             searchbox.sendKeys(txt);
         } catch (Exception e) {
@@ -50,11 +52,15 @@ public class PageObjects {
         }
     }
 
-    public void sbutton(){
+    public void setSearchButton(){
         try {driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
             searchbutton.click();
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    @After
+    public void teardown(){
+        driver.quit();
     }
 }
