@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0e4e3e6-1589-46b8-91d2-4eae6f3e481a" name="Changes" comment="2nd commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebDriverManager/WebDriverManagerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cucumber-OLX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cucumber-OLX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Browser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CategorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CategorySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Test_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Test_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectHP/CategoryPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectHP/CategoryPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectHP/PageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectHP/PageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Category.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/Browser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/Category.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CategorySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CategorySteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Test_steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Test_steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectHP/CategoryPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectHP/CategoryPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectHP/PageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectHP/PageObjects.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+    <option name="OPTIONS">
+      <set>
+        <option value="INTERACTIVE" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GFudDjvVxaUima47LusRcrQFzo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IntelliJIDEAProjects\Cucumber-OLX\src\test\java\TestRunner" />
+      <recent name="C:\Users\User\IntelliJIDEAProjects\Cucumber-OLX\target\generated-test-sources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IntelliJIDEAProjects\Cucumber-OLX\src\test\resources" />
+      <recent name="C:\Users\User\IntelliJIDEAProjects\Cucumber-OLX\src\test\java" />
+      <recent name="C:\Users\User\IntelliJIDEAProjects\Cucumber-OLX\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: Category" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Category.feature" />
+      <option name="GLUE" value="Steps Base" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber-OLX" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: Category" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: HomePage (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="C:\Users\User\IntelliJIDEAProjects\Cucumber-OLX\src\test\java\Features\HomePage.Feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber-OLX" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: HomePage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/HomePage.feature" />
+      <option name="GLUE" value="Steps Base" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber-OLX" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: HomePage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user selects &quot;Dogs&quot; options (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Category.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber-OLX" />
+      <option name="NAME_FILTER" value="^user selects \&quot;Dogs\&quot; options$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user selects \&quot;Dogs\&quot; options$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user selects &quot;Dogs&quot; options" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber-OLX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="Base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="pageObjectHP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="Steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber-OLX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: HomePage (1)" />
+      <item itemvalue="Cucumber Java.Feature: Category" />
+      <item itemvalue="Cucumber Java.Scenario: user selects &quot;Dogs&quot; options (1)" />
+      <item itemvalue="Cucumber Java.Feature: HomePage" />
+      <item itemvalue="JUnit.Whole project" />
+      <item itemvalue="JUnit.Runner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: Category" />
+        <item itemvalue="JUnit.Whole project" />
+        <item itemvalue="Cucumber Java.Feature: HomePage" />
+        <item itemvalue="Cucumber Java.Scenario: user selects &quot;Dogs&quot; options (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0e4e3e6-1589-46b8-91d2-4eae6f3e481a" name="Changes" comment="" />
+      <created>1665919285696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665919285696</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1666958633543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666958633543</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2nd commit">
+      <created>1666961721052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666961721052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$USER_HOME$/git/Intelij Cucumber OLX" />
+    </ignored-roots>
+    <MESSAGE value="First commit" />
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.concurrent.ExecutionException" package="java.util.concurrent" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cucumber_OLX$Feature__Category.ic" NAME="Feature: Category Coverage Results" MODIFIED="1667305132806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cucumber_OLX$Runner.ic" NAME="Runner Coverage Results" MODIFIED="1667904486233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestRunner.*</FILTER>
+      <FILTER>Base.*</FILTER>
+      <FILTER>pageObjectHP.*</FILTER>
+      <FILTER>Steps.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cucumber_OLX$Scenario__user_should_be_able_to_click_on_search_box_and_click_on_search_button.ic" NAME="Scenario: user should be able to click on search box and click on search button Coverage Results" MODIFIED="1666270231090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>
