@@ -1,5 +1,5 @@
-
 Feature: Navigating to OLX Home page and selecting options
+
   Background:
     Given I navigate to home page of OLX "https://www.olx.in".
 
@@ -15,7 +15,7 @@ Feature: Navigating to OLX Home page and selecting options
     Then user clicks on search button
     Examples:
       | cars |
-       |car|
+      | car  |
 
 
 

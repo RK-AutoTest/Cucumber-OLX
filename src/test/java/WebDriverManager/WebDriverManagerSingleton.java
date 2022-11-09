@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverManagerSingleton {
     // to create instance of singleton class.
-    private static WebDriverManagerSingleton wdm=null;
+    private static WebDriverManagerSingleton wdm = null;
     private static WebDriver driver;
     //to create private constructor
 
@@ -20,22 +20,19 @@ public class WebDriverManagerSingleton {
     //to create instance of class
     public static WebDriverManagerSingleton getInstance() {
         if (wdm == null) {
-            wdm=new WebDriverManagerSingleton();
+            wdm = new WebDriverManagerSingleton();
         }
-        return  wdm;
+        return wdm;
     }
 
-    public  WebDriver getDriver() {
-        if (driver==null) {
+    public WebDriver getDriver() {
+        if (driver == null) {
             System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
             driver = new ChromeDriver();
 
         }
         return driver;
     }
-    @After
-    public void teardown(){
-        driver.quit();
-    }
+
 
 }
