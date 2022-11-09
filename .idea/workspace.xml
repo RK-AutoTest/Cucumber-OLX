@@ -7,31 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0e4e3e6-1589-46b8-91d2-4eae6f3e481a" name="Changes" comment="2nd commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebDriverManager/WebDriverManagerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cucumber-OLX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cucumber-OLX.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Browser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CategorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CategorySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Test_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Test_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectHP/CategoryPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectHP/CategoryPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectHP/PageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectHP/PageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Category.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/Browser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/Category.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CategorySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CategorySteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Test_steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Test_steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectHP/CategoryPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectHP/CategoryPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectHP/PageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectHP/PageObjects.class" afterDir="false" />
-    </list>
+    <list default="true" id="b0e4e3e6-1589-46b8-91d2-4eae6f3e481a" name="Changes" comment=" added background and removed base class commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666961721052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" added background and removed base class commit">
+      <created>1667991490394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667991490394</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" added background and removed base class commit">
+      <created>1667991505968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667991505968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -316,7 +306,8 @@
     </ignored-roots>
     <MESSAGE value="First commit" />
     <MESSAGE value="2nd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+    <MESSAGE value=" added background and removed base class commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=" added background and removed base class commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
