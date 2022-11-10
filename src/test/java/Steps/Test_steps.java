@@ -4,6 +4,7 @@ package Steps;
 import WebDriverManager.WebDriverManagerSingleton;
 
 
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -69,10 +70,13 @@ public class Test_steps {
         try {
             po.setSearchButton();
             Thread.sleep(3000);
-            po.teardown();
+            Hook h = new Hook();
+            h.teardown();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
 
 }

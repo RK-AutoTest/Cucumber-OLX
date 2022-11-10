@@ -12,6 +12,7 @@ import org.junit.runner.RunWith;
         features = "C:\\Users\\User\\IntelliJIDEAProjects\\Cucumber-OLX\\src\\test\\resources\\Features",
         glue = {"Steps"},
         monochrome = true
+
 )
 
 public class runnerCucumberTest {

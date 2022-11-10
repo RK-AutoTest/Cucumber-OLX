@@ -1,6 +1,9 @@
 package WebDriverManager;
 
+
+
 import io.cucumber.java.After;
+import io.cucumber.java.Scenario;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -34,5 +37,10 @@ public class WebDriverManagerSingleton {
         return driver;
     }
 
+
+    public void teardown(){
+        driver.quit();
+
+    }
 
 }

@@ -67,7 +67,5 @@ public class PageObjects {
     }
 
 
-    public void teardown() {
-        driver.quit();
-    }
+
 }

@@ -7,23 +7,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0e4e3e6-1589-46b8-91d2-4eae6f3e481a" name="Changes" comment=" added background and removed base class commit">
+    <list default="true" id="b0e4e3e6-1589-46b8-91d2-4eae6f3e481a" name="Changes" comment="reformat and working teardown method">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_5_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_klov_reporter_5_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_madgag_animated_gif_lib_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_erichseifert_vectorgraphics2d_VectorGraphics2D_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_rototor_pdfbox_graphics2d_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava3_rxjava_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_knowm_xchart_xchart_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_grasshopper_cucumber_pdf_report_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_grasshopper_extent_pdf_report_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_grasshopper_extentreports_cucumber6_adapter_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_grasshopper_htmlextentreporter_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_grasshopper_rest_assured_cucumber_pdf_report_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tech_grasshopper_table_layout_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_picocontainer_7_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cucumber-OLX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cucumber-OLX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CategorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CategorySteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Test_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Test_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/runnerCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/runnerCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/runnerCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverManager/WebDriverManagerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriverManager/WebDriverManagerSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectHP/CategoryPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectHP/CategoryPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectHP/PageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectHP/PageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Category.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/HomePage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Category.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/Category.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HomePage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CategorySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CategorySteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Test_steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Test_steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/runnerCucumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner/runnerCucumberTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WebDriverManager/WebDriverManagerSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebDriverManager/WebDriverManagerSingleton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectHP/CategoryPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectHP/CategoryPageObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectHP/PageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectHP/PageObjects.class" afterDir="false" />
@@ -90,6 +119,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -296,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667991537717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reformat and working teardown method">
+      <created>1668015275473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668015275473</updated>
+    </task>
+    <task id="LOCAL-00007" summary="reformat and working teardown method">
+      <created>1668015282805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668015282805</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -335,7 +379,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="2nd commit" />
     <MESSAGE value=" added background and removed base class commit" />
-    <option name="LAST_COMMIT_MESSAGE" value=" added background and removed base class commit" />
+    <MESSAGE value="reformat and working teardown method" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformat and working teardown method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

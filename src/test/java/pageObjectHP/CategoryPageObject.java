@@ -30,14 +30,14 @@ public class CategoryPageObject {
         System.out.println("fetched title " + title);
         String expected = "OLX - Free classifieds in India, Buy and Sell for free anywhere in India with OLX Online Classified Advertising";
         Assert.assertEquals(title, expected);
-        System.out.println("Title matched of Home Page");
+        System.out.println("'--Title matched of Home Page--'");
     }
 
     public void clickCategories() {
 
         categories.click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        System.out.println("clicked");
+
     }
 
     public void clickDog() {
@@ -46,13 +46,15 @@ public class CategoryPageObject {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-    public void verifyDogPage() {
+    public void verifyDogPage() throws InterruptedException {
 
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+        Thread.sleep(3000);
         String dg = driver.getTitle();
-        System.out.println("fetched title of dog page " + dg);
+        System.out.println("fetched title of dog page --" + dg);
         String expected = "Dogs for sale in India | OLX";
         Assert.assertEquals(dg, expected);
-        System.out.println("Title matched of Dog Page");
+        System.out.println("'--Title matched of Dog Page--'");
+
     }
 }

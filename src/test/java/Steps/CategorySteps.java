@@ -30,7 +30,7 @@ public class CategorySteps {
     @Given("user is on home page  and verifies page title")
     public void user_is_on_home_page_and_verifies_page_title() {
 
-        System.out.println("verifying title");
+
         co.verifyTitle();
 
 
@@ -47,11 +47,11 @@ public class CategorySteps {
     public void user_clicks_on_dogs_option() {
 
         co.clickDog();
-        System.out.println("dog clicked");
+
     }
 
     @Then("it should take user to dog page and verifies page title")
-    public void it_should_take_user_to_dog_page_and_verifies_page_title() {
+    public void it_should_take_user_to_dog_page_and_verifies_page_title() throws InterruptedException {
 
 
         co.verifyDogPage();
